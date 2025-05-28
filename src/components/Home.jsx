@@ -9,7 +9,6 @@ import image5 from "../assets/image5.png"
 import Frame11 from "../assets/Frame11.png"
 import Frame12 from "../assets/Frame12.png"
 import Frame13 from "../assets/Frame13.png"
-// import image6 from "../assets/image6.png"
 import video from "../assets/video.mp4"
 import { FaArrowDown } from "react-icons/fa";
 const Home = ({ white,setBuy }) => {
