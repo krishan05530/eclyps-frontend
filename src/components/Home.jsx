@@ -6,9 +6,9 @@ import image2 from "../assets/image2.png"
 import image3 from "../assets/image3.png"
 import image4 from "../assets/image4.png"
 import image5 from "../assets/image5.png"
-import fame11 from "../assets/Frame11.png"
-import fame12 from "../assets/frame12.png"
-import fame13 from "../assets/Frame13.png"
+import Frame11 from "../assets/Frame11.png"
+import Frame12 from "../assets/Frame12.png"
+import Frame13 from "../assets/Frame13.png"
 // import image6 from "../assets/image6.png"
 import video from "../assets/video.mp4"
 import { FaArrowDown } from "react-icons/fa";
@@ -130,15 +130,15 @@ const Home = ({ white,setBuy }) => {
                         this piece captures presence without force. Worn
                         here in the stillness of a city in motion.</p>
                     <div className=' grid grid-cols-3 grid-rows-1 gap-4 w-full'>
-                        <img src={fame12}
+                        <img src={Frame12}
                             alt='fame12'
                             className='col-span-1 row-span-1 w-full h-auto object-cover' />
 
-                        <img src={fame11}
+                        <img src={Frame11}
                             alt='fame11'
                             className='col-span-1 row-span-1 w-full h-auto object-cover' />
 
-                        <img src={fame13}
+                        <img src={Frame13}
                             alt='fame13'
                             className='col-span-1 row-span-1 w-full h-auto object-cover' />
                     </div>
