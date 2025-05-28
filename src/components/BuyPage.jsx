@@ -148,9 +148,9 @@ setBuy(false)
 
 
 
-                            <div className='flex justify-between mt-8'>
+                            <div className='flex flex-col mt-4 md:flex md:flex-row  md:justify-between md:mt-8'>
                                 <button className='border-2 border-gray-400  rounded-xl  px-8 py-4'>Cancel</button>
-                                <button type='submit' className={` border-2 border-gray-400 rounded-xl px-8 py-4 ${white ? 'bg-black text-white' : 'bg-white text-black'}  hover:bg-red-500`}>Save this Address</button>
+                                <button type='submit' className={` border-2 mt-4 border-gray-400 rounded-xl px-8 py-4 ${white ? 'bg-black text-white' : 'bg-white text-black'}  hover:bg-red-500`}>Save this Address</button>
                             </div>
 
 
